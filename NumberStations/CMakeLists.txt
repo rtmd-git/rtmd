@@ -1,0 +1,3 @@
+CMAKE_MINIMUM_REQUIRED (VERSION 2.8.12)
+
+INCLUDE ( NumberStations.cmake )
