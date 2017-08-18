@@ -27,4 +27,9 @@ const std::string INumberStation::getTransmissison(const std::time_t& time)
 	return trans.str();
 }
 
+const std::time_t& INumberStation::getLastTransmissionTime() const
+{
+	return _lastTransmissionTime;
+}
+
 }

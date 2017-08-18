@@ -27,6 +27,8 @@ protected:
 	// Get the transmission content
 	virtual const std::string getContent(const std::time_t& time) const = 0;
 
+	const std::time_t& getLastTransmissionTime() const;
+
 private:
 
 	std::time_t _lastTransmissionTime;
