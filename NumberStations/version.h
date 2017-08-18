@@ -12,7 +12,7 @@ public:
 	static const std::string getVersion();
 
 private:
-static const int _versionMnr = 1;
+static const int _versionMnr = 2;
 static const int _versionMjr = 0;
 };
 
